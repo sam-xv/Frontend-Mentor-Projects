@@ -31,18 +31,17 @@ Snapshots of some of the projects-
 
 **B7. Challenge Tilte :**
 
-- Solution URL: [Source Code](https://github.com/sam-xv/Frontend-Mentor-Projects/tree/main)
+- Solution URL: [Source Code](https://github.com/sam-xv/Frontend-Mentor-Projects/tree/main/qr-code-component)
 
-- Live Site URL: [Live Link](https://github.com/sam-xv/Frontend-Mentor-Projects/tree/main)
+- Live Site URL: [Live Link](https://sam-xv.github.io/Frontend-Mentor-Projects/qr-code-component/index.html)
 
-![Manage Landing Page](https://github.com/sam-xv/Frontend-Mentor-Projects/tree/main)
-
+![Desktop Preview](https://sam-xv.github.io/Frontend-Mentor-Projects/qr-code-component/preview.jpg)
 
 ### Links
 
 | No. | Project Name                     | Source Code                                                                                                  | Live Link                                                                                                         |
 | --: | -------------------------------- | ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------- |
-| A0. | QR Code                          | [Code](https://github.com/sam-xv/Frontend-Mentor-Projects/tree/main)                       | [Live](https://github.com/sam-xv/Frontend-Mentor-Projects/tree/main)                           |
+| A0. | QR Code                          | [Code](https://github.com/sam-xv/Frontend-Mentor-Projects/tree/main/qr-code-component)                       | [Live](https://sam-xv.github.io/Frontend-Mentor-Projects/qr-code-component/index.html)                           |
 |          |
 
 ## My process
