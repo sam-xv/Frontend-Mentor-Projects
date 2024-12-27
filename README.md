@@ -29,7 +29,7 @@ You will see all the projects I am making on this platform.
 
 Snapshots of some of the projects-
 
-**B7. Challenge Tilte :**
+**A0. QR Code :**
 
 - Solution URL: [Source Code](https://github.com/sam-xv/Frontend-Mentor-Projects/tree/main/qr-code-component)
 
