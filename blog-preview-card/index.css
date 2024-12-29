@@ -65,7 +65,7 @@ mark{
   margin-bottom: 5px;
  }
 
- dd{
+ .description{
   color: var(--Gray-500);
   line-height: 1.5rem;
   letter-spacing: 0.0025rem;
