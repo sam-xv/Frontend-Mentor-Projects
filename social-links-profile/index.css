@@ -43,7 +43,6 @@ body {
 }
 
 h1 {
-  display: flex;
   font-size: 24px;
   margin-top: 3px;
   letter-spacing: 0.2px;

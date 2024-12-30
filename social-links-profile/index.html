@@ -21,17 +21,17 @@
 
 </head>
 
-<body ng-app="app" ng-controller="mainCtrl">
+<body data-ng-app="app" data-ng-controller="mainCtrl">
   <main>
     <div class="card-container">
       <img width="88" class="avatar-icon" src="./assets/images/avatar-jessica.jpeg" alt="avatar-fallback-icon"/>
       <div class="profile-info">
-        <h1><p class="shuffle">Jessica</p>&nbsp;<p class="shuffle">Randall</p></h1>
+        <h1><span class="shuffle">Jessica</span>&nbsp;<span class="shuffle">Randall</span></h1>
         <address>London, United Kingdom</address>
       </div>
       <div class="socials-container">
         <p class="info">"Front-end developer and avid reader."</p>
-        <div class="social-card" ng-repeat="(key, value) in socials">
+        <div class="social-card" data-ng-repeat="(key, value) in socials">
           <a href="{{value}}" target="_blank" class="shuffle">{{key}}</a>
         </div>
       </div>
