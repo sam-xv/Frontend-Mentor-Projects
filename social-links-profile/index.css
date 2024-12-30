@@ -1,0 +1,100 @@
+:root {
+  --Green: hsl(75, 94%, 57%);
+  --White: hsl(0, 0%, 100%);
+  --Grey-700: hsl(0, 0%, 20%);
+  --Grey-800: hsl(0, 0%, 12%);
+  --Grey-900: hsl(0, 0%, 8%);
+  --FWT600:600
+}
+
+html,
+body {
+  height: 100dvh;
+  font-size: 14px;
+  font-family: "Inter", serif;
+  align-content: center;
+  color: var(--White);
+  background-color: var(--Grey-900);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card-container {
+  box-sizing: border-box;
+  margin: auto;
+  flex-direction: column;
+  padding: 24px;
+  display: flex;
+  gap: 24px;
+  max-width: 382px;
+  width: 100%;
+  align-items: center;
+  background: var(--Grey-800);
+  border-radius: 12px;
+}
+
+.avatar-icon {
+  margin-top: 12px;
+  border-radius: 50%;
+}
+
+h1 {
+  display: flex;
+  font-size: 24px;
+  margin-top: 3px;
+  letter-spacing: 0.2px;
+}
+
+address {
+  color: var(--Green);
+  font-weight: var(--FWT600);
+  text-align: center;
+  font-style: normal;
+}
+
+.profile-info {
+  display: grid;
+  grid-row-gap: 10px;
+}
+
+.info {
+  text-align: center;
+  line-height: 2rem;
+  margin-bottom: 3px;
+}
+
+.socials-container {
+  width: 100%;
+  align-items: center;
+  display: grid;
+  gap: 15px;
+}
+
+.social-card {
+  font-weight: var(--FWT600);
+  text-align: center;
+  position: relative;
+  height: 45px;
+  align-content: center;
+  width: 100%;
+  padding: 0 15px;
+
+  a {
+    text-decoration: none;
+    display: block;
+    color: var(--White);
+    background-color: var(--Grey-700);
+    height: 100%;
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
+  }
+  a:hover{
+    background-color: var(--Green);
+    color: black;
+  }
+}
