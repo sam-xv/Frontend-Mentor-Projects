@@ -75,7 +75,7 @@ body {
 }
 
 main {
-  padding: 123px 0;
+  margin:7.7rem 0
 }
 
 ul,
@@ -171,7 +171,7 @@ ol {
   }
 
   main {
-    padding: 0 !important;
+    margin: 0 !important;
   }
 
   h1 {
