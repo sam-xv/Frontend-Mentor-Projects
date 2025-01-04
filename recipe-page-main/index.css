@@ -1,0 +1,198 @@
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Stone-100: hsl(30, 54%, 90%);
+  --Stone-150: hsl(30, 18%, 87%);
+  --Stone-600: hsl(30, 10%, 34%);
+  --Stone-900: hsl(24, 5%, 18%);
+  --Brown-800: hsl(14, 45%, 36%);
+  --Rose-800: hsl(332, 51%, 32%);
+  --Rose-50: hsl(330, 100%, 98%);
+}
+
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p,
+li,
+ol ::marker,
+.table-definition {
+  color: var(--Stone-600);
+  font-size: 16px;
+  line-height: 150%;
+}
+
+li {
+  padding-left: 16px;
+}
+
+.font-outfit,
+p,
+li,
+ol ::marker,
+.table-definition {
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+ol ::marker {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 36px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+
+html,
+body {
+  height: 100dvh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  align-content: center;
+  background-color: var(--Stone-100);
+}
+
+main {
+  padding: 123px 0;
+}
+
+ul,
+ol {
+  margin-inline-start: 24px;
+  gap: 8px;
+  display: grid;
+}
+
+.card-container {
+  display: flex;
+  padding: 40px;
+  max-width: 736px;
+  margin: auto;
+  flex-direction: column;
+  gap: 31px;
+  background: var(--White);
+  border-radius: 24px;
+}
+
+.text-content {
+  gap: 30px;
+  display: grid
+}
+
+.title {
+  gap: 18px;
+  display: grid
+}
+
+.preparation,
+.preparation li::marker {
+  gap: 13px;
+  display: grid;
+  background-color: var(--Rose-50);
+  color: var(--Rose-800);
+  padding: 24px;
+  padding-top: 26px;
+  padding-left: 28px;
+  border-radius: 12px;
+}
+
+.nutrition,
+.ingredients,
+.ingredients li::marker,
+.instructions,
+.instructions li::marker {
+  gap: 20px;
+  display: grid;
+  color: var(--Brown-800);
+}
+
+.divider {
+  width: 100%;
+  border-top: 1px solid var(--Stone-150);
+}
+
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1px;
+
+  .table-definition {
+    flex-grow: 0;
+    flex-basis: 50%;
+    padding: 12px 32px 12px 32px;
+    border-bottom: 1px solid var(--Stone-150);
+  }
+
+  .table-definition:nth-last-of-type(-n+2) {
+    border-bottom: none !important;
+    padding-bottom: 0px !important;
+  }
+
+  .table-definition:nth-of-type(-n+2) {
+    padding-top: 0px !important;
+  }
+
+  .table-definition:nth-child(2n) {
+    color: var(--Brown-800);
+    font-weight: bold;
+    padding-left: 8px
+  }
+}
+
+/* mobile screen */
+@media (max-width: 767px) {
+  .card-container {
+    max-width: 100% !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+  }
+
+  main {
+    padding: 0 !important;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  img {
+    border-radius: 0px !important;
+  }
+
+  .text-content {
+    padding: 40px 32px;
+  }
+}
+
+/* tab screen */
+@media (min-width:768px) and (max-width: 1000px) {
+  .card-container {
+    max-width: 616px !important;
+  }
+}
+
+img {
+  border-radius: 12px;
+}
